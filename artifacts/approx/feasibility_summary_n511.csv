@@ -1,0 +1,4 @@
+method,n,flow,lut,crit_delay_ns,power_w,acc_uniform_p05,lut_reduction_vs_popcount,power_reduction_vs_popcount,delay_ratio_vs_popcount
+popcount_exact,511,post_route,996,9.514,25.199,1.0,0.0,0.0,1.0
+approx_sample255,511,post_route,486,8.63,10.144,0.749,0.5120481927710843,0.5974443430294853,0.9070842968257307
+approx_block3_pop171,511,post_route,447,10.031,12.258,0.8331,0.5512048192771084,0.5135521250843288,1.0543409712003364

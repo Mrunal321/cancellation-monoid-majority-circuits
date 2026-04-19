@@ -1,0 +1,4 @@
+method,logic_repr,points_total,points_lut,points_proxy,mean_area_ratio,min_area_ratio,max_area_ratio,fraction_le_half
+approx_block3,xag,254,0,254,0.521698,0.422222,0.592593,0.303150
+approx_block3,aig,254,0,254,0.482800,0.353846,0.576923,0.696850
+approx_block3,mig,254,0,254,0.496626,0.353846,0.589744,0.425197

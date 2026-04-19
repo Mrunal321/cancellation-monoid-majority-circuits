@@ -1,0 +1,53 @@
+# Build and tool outputs
+/build/
+/.Xil/
+*.jou
+*.log
+*.backup.jou
+*.backup.log
+*.tmp
+abc.history
+clockInfo.txt
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# Large local-only docs
+/Research papers/
+/deploy/
+
+# Generated evaluation outputs: ignore by default
+/artifacts/**
+/results/**
+
+# Keep a curated paper dataset under artifacts/
+!/artifacts/
+!/artifacts/approx/
+!/artifacts/approx/accuracy_vs_input_bias.csv
+!/artifacts/approx/feasibility_summary_n511.csv
+!/artifacts/approx/approx_sample255_n511.v
+!/artifacts/approx/approx_block3_pop171_n511.v
+!/artifacts/dac19_eval/
+!/artifacts/dac19_eval/run_20260221_180502/
+!/artifacts/dac19_eval/run_20260221_180502/dac19_results.csv
+!/artifacts/dac19_eval/run_20260221_180502/dac19_compare_approx_vs_popcount.csv
+
+# Keep a curated paper dataset under results/
+!/results/
+!/results/cancel_tree_eval/
+!/results/cancel_tree_eval/run_20260222_232514/
+!/results/cancel_tree_eval/run_20260222_232514/master_results.csv
+!/results/cancel_tree_eval/run_20260222_232514/accuracy_results.csv
+!/results/cancel_tree_eval/run_20260222_232514/tables_accuracy.csv
+!/results/cancel_tree_eval/run_20260222_232514/tables_cancel_tree.csv
+!/results/cancel_tree_eval/run_20260222_232514/tables_half_resource.csv
+!/results/cancel_tree_eval/run_20260222_232514/report_cancel_tree.md
+!/results/strict_vs_approx_eval/
+!/results/strict_vs_approx_eval/run_20260222_023854/
+!/results/strict_vs_approx_eval/run_20260222_023854/final_stats_n5_to_101.csv
+!/results/vivado_netlist_eval/
+!/results/vivado_netlist_eval/run_20260419_202912/
+!/results/vivado_netlist_eval/run_20260419_202912/summary.csv

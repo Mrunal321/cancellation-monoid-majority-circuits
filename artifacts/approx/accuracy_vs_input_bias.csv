@@ -1,0 +1,13 @@
+method,p,accuracy
+approx_sample255,0.50,0.7503
+approx_block3_pop171,0.50,0.8352
+approx_sample255,0.52,0.8069
+approx_block3_pop171,0.52,0.8810
+approx_sample255,0.55,0.9489
+approx_block3_pop171,0.55,0.9798
+approx_sample255,0.60,0.9994
+approx_block3_pop171,0.60,1.0000
+approx_sample255,0.65,1.0000
+approx_block3_pop171,0.65,1.0000
+approx_sample255,0.70,1.0000
+approx_block3_pop171,0.70,1.0000
